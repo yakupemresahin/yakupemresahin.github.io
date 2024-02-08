@@ -50,7 +50,7 @@ about_profile_image: images/IMG_0423.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Yakup Emre and I'm a master's student in Physics with AI minor at Ludwig Maximilian University of Munich. My interest mainly lie in the intersection of physics and machine learning. I wonder what kind of new ML tools we can develop to use them in new physics discoveries. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>wondering</mark> and <mark>grilling</mark>
 
 content:
 
@@ -58,16 +58,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Boğaziçi University
+        caption: 2018 - 2023
+        sub_title: BSc Electrical & Electronics Engineering
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Founded in 1863, as Robert College, it is the first American higher education institution founded outside the United States. Though under entirely Turkish administration today, the university still maintains strong ties to the American educational system. Boğaziçi University also known as Bosphorus University is a major research university located on the European side of the Bosphorus strait in Istanbul, Turkey. The language of instruction is English.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-  
+          During my time at Boğaziçi, which I started as an engineering student and graduated also with a double major in Physics with an overall GPA of 3.73/4.00, I tried to maintain a balance between coursework and research experience. 
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
