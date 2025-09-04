@@ -74,7 +74,7 @@ a:hover {
   text-decoration: none;
 }
 body {
-  background-color: #ede3e3;
+  background-color: #ebe3f0;
 }
 
 body,
@@ -83,24 +83,24 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
 
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: Verdana, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
