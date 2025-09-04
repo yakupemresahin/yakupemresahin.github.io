@@ -83,12 +83,12 @@ th,
 tr,
 p,
 a {
-  font-family: Open Sans, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
 
 strong {
-  font-family: Open Sans, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -100,7 +100,7 @@ h2 {
 }
 
 .papertitle {
-  font-family: Open Sans, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -108,7 +108,7 @@ h2 {
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: Open Sans, Verdana, Helvetica, sans-serif;
+  font-family: sans-serif, Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
 
