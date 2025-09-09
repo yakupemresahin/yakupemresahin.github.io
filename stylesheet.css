@@ -84,9 +84,11 @@ body {
 
 .pp{
   background: linear-gradient(180deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .5) 35%, rgba(0, 212, 255, .5) 100%);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 .pp:hover{
   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: rgba(255,255,255,0.1);
   cursor: pointer;
 }
 
