@@ -65,17 +65,57 @@
 
 
 a {
-  color: #1772d0;
+  color: #770a6f;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: #ffffff;
   text-decoration: none;
+  background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  border-radius: 4px;
 }
 body {
-  background-color: #ebe3f0;
+  background-color: rgb(236, 242, 251);
+  
+}
+
+.pp{
+  background: linear-gradient(180deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .5) 35%, rgba(0, 212, 255, .5) 100%);
+}
+.pp:hover{
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  cursor: pointer;
+}
+
+.footnote{
+  padding: 2px;
+  display: inline-block;
+  position: relative;
+  left: 50%; 
+  transform: translateX(-50%);
+  border-radius: 4px;
+  color: white;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.footnote:hover{
+  cursor: pointer;
+  color: black;
+  background: rgb(236, 242, 251);
+}
+
+/* background-color:#ebe3f0; */
+.bio{
+  background: #833AB4;
+  background: radial-gradient(circle at 81.5%, rgba(131, 58, 180, .7) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .7) 100%);
+  border-radius: 10px;
+  border: .1px solid #ffffff;
+}
+
+.publication{
+  background: white;
 }
 
 body,
@@ -137,7 +177,7 @@ h2 {
 }
 
 span.highlight {
-  background-color: #ffffd0;
+  background-color: rgb(236, 242, 251);
 }
 
 .colored-box {
@@ -145,4 +185,5 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+    
 }
