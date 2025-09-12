@@ -65,7 +65,7 @@
 
 
 a {
-  color: #770a6f;
+  color: #ec650b;
   text-decoration: none;
 }
 
@@ -79,6 +79,7 @@ a:hover {
 }
 body {
   background-color: rgb(236, 242, 251);
+  background: linear-gradient(90deg, rgba(131, 58, 180, .2) 0%, rgba(253, 29, 29, .2) 50%, rgba(252, 176, 69, .2) 100%);
   padding: 0;
   margin: 0;
 }
@@ -90,6 +91,7 @@ body {
 .pp:hover{
   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   background: rgba(255,255,255,0.1);
+  background: linear-gradient(180deg, rgba(131, 58, 180, .7) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .7) 100%);
   cursor: pointer;
 }
 
@@ -112,9 +114,13 @@ body {
 /* background-color:#ebe3f0; */
 .bio{
   background: #833AB4;
+  background: white;
   background: radial-gradient(circle at 81.5%, rgba(131, 58, 180, .7) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .7) 100%);
+  background: radial-gradient(circle at 81.5%, rgba(131, 58, 180, .4) 0%, rgba(253, 29, 29, .4) 50%, rgba(252, 176, 69, .4) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .5) 35%, rgba(0, 212, 255, .5) 100%);
+  background: white;
   border-radius: 0px 0px 10px 10px;
-  border: .1px solid #ffffff;
+  border: .1px solid #ddd;;
   border-top: none;
 }
 
