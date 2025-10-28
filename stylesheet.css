@@ -78,8 +78,8 @@ a:hover {
   border-radius: 4px;
 }
 body {
-  background-color: rgb(236, 242, 251);
-  background: linear-gradient(90deg, rgba(131, 58, 180, .2) 0%, rgba(253, 29, 29, .2) 50%, rgba(252, 176, 69, .2) 100%);
+  background-color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(131, 58, 180, .05) 0%, rgba(253, 29, 29, .05) 50%, rgba(252, 176, 69, .05) 100%);
   padding: 0;
   margin: 0;
 }
@@ -118,10 +118,11 @@ body {
   background: radial-gradient(circle at 81.5%, rgba(131, 58, 180, .7) 0%, rgba(253, 29, 29, .7) 50%, rgba(252, 176, 69, .7) 100%);
   background: radial-gradient(circle at 81.5%, rgba(131, 58, 180, .4) 0%, rgba(253, 29, 29, .4) 50%, rgba(252, 176, 69, .4) 100%);
   background: linear-gradient(90deg, rgba(2, 0, 36, .5) 0%, rgba(9, 9, 121, .5) 35%, rgba(0, 212, 255, .5) 100%);
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 0px 0px 10px 10px;
   border: .1px solid #ddd;;
   border-top: none;
+  border: none;
 }
 
 .publication{
@@ -187,7 +188,7 @@ h2 {
 }
 
 span.highlight {
-  background-color: rgb(236, 242, 251);
+  background-color: rgb(208, 221, 240);
 }
 
 .colored-box {
