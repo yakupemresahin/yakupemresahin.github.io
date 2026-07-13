@@ -79,7 +79,7 @@ a:hover {
 }
 body {
   background-color: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgba(131, 58, 180, .05) 0%, rgba(253, 29, 29, .05) 50%, rgba(252, 176, 69, .05) 100%);
+  background: linear-gradient(90deg, rgba(131, 58, 180, .01) 0%, rgba(253, 29, 29, .01) 50%, rgba(252, 176, 69, .01) 100%);
   padding: 0;
   margin: 0;
 }
