@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;350;400;450;500;800&display=swap" rel="stylesheet">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -9,29 +8,30 @@
     <meta name="author" content="Yakup Emre Şahin">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;350;400;450;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+
   </head>
 
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:0px;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
-          <table class="bio", style="width:100%;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <table class="bio" style="width:100%;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle;">
                 <p class="name" style="text-align: center; font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif">
                   Yakup Emre Şahin
                 </p>
                 <p>
-        I’m a doctoral researcher at the University of Liège in the research group of 
-        <a href="https://glouppe.github.io">Prof. Gilles Louppe</a>, working on scientific machine learning. 
+        I’m a doctoral researcher at the University of Liège in the Science with AI Lab (SAIL) led by
+        <a href="https://glouppe.github.io">Prof. Gilles Louppe</a>, working on scientific machine learning.
         <br><br>
-        I did my Master’s on Physics and AI at LMU Munich with DAAD scholarship and wrote my thesis at Helmholtz AI 
+        I did my Master’s in Physics and AI at LMU Munich with a DAAD scholarship and wrote my thesis at Helmholtz AI
         in the group of <a href="https://sites.google.com/view/nikikilbertus/home">Prof. Niki Kilbertus</a> on symbolic regression for dynamical systems.
         <br><br>
-        Before that, I did my double Bachelor’s in Electrical & Electronics Engineering and Physics at Boğaziçi University,
-        Istanbul and had research internships at different places including CERN and Koç University Gravity group.
+        Before that, I completed a double major in Electrical & Electronics Engineering and Physics at Boğaziçi University,
+        Istanbul, and did research internships at places including CERN and Koç University’s gravity group.
 
                 </p>
                 <p style="text-align:center">
@@ -42,7 +42,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <div href="images/yes_pp_naked.jpg"><img class="pp" style="width:90%;max-width:100%; rotate: -90deg; object-fit: cover; border-radius: 50%; " alt="profile photo" src="images/yes_pp_naked.jpg" class="hoverZoomLink"></div>
+                <div><img class="pp hoverZoomLink" style="width:90%;max-width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%;" alt="Yakup Emre Şahin" src="images/profile.png"></div>
               </td>
             </tr>
           </tbody></table>
@@ -51,85 +51,82 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I am interested in scientific machine learning, spending my time around questions like <br>
-                  &nbsp; 1) how can we learn scientific models from lossy observations, <br>
-                  &nbsp; 2) how can we incorporate physical knowledge into machine learning models, and <br>
-                  &nbsp; 3) how good of a scientific model can an ML model be in terms of generalization? <br><br> 
-                  
-                  Namely, framing scientific questions within Empirical Bayes setting to find priors using generative models
-                  that are consistent with observations rather than working on Bayesian Inverse Problems with fixed priors. <br><br> 
-
-                  One challenging point here is the parametrization of these priors with existing scientific knowledge.
-                  In other words, educating the models with the science that has been discovered so far.
-                  I believe this is an important step towards building generalizable models that can be used for scientific discovery and understanding. <br><br>
-
-                  I am also interested in applications of such machine learning methods in subdomains such as
-                  particle physics, gravitational wave science... <br><br>
-
-                  If you find these questions mind-boggling as I do, feel free to reach out to me for a chat or collaboration!
+                  Can machine learning <b>learn the scientific models we don't have yet</b>, rather than just emulating
+                  the ones we do or inferring their parameters?
+                </p>
+                <p>
+                  That's the question behind my work. I build ML pipelines that learn scientific models directly from observations,
+                  combining generative models and Bayesian frameworks with latent world models, and probing those world models
+                  to see what physics they have actually learned.
+                  Right now I'm applying them to unfolding detector effects in particle physics. Weather and heliophysics are natural next targets.
+                </p>
+                <p>
+                  If you find this question as mind-boggling as I do, feel free to reach out for a chat or collaboration!
                 </p>
               </td>
             </tr>
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <div>
           <h2>Selected Publications</h2>
           <br>
 
-          <div class="publication" style="padding:16px; border:1px solid #f8f8f8; border-radius:8px; margin-bottom:12px;">
-            <a href="https://arxiv.org/abs/2510.23295" style="font-weight:500; font-size:16px;">
+          <div class="publication">
+            <a href="https://neurips.cc/virtual/2025/122913" class="pub-title">
               Predicting symbolic ODEs from multiple trajectories
             </a>
-            <div style="margin-top:4px; font-size:13px; color:#333;">
+            <div class="pub-authors">
               <span class="highlight">Yakup Emre Şahin</span>, Niki Kilbertus, Sören Becker
             </div>
-            <div style="margin-top:4px; font-size:13px; font-style:italic; color:#555;">
+            <div class="pub-venue">
               NeurIPS 2025 ML4PS Workshop
             </div>
-            <hr style="margin:8px 16px 8px 16px; border:0; border-top:1px solid #ebe3f0;">
-            <p style="margin-top:8px; font-size:14px; color:#333;">
+            <hr>
+            <p class="pub-summary">
               We introduce MIO, a transformer-based model for inferring symbolic ordinary differential equations (ODEs) from multiple observed trajectories of a dynamical system.
             </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2510.23295">[arXiv]</a>
+              <a href="https://github.com/yakupemresahin/mio">[code]</a>
+            </div>
           </div>
 
-          <div class="publication" style="padding:16px; border:1px solid #f8f8f8; border-radius:8px; margin-bottom:12px;">
-            <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024028" style="font-weight:500; font-size:16px;">
+          <div class="publication">
+            <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024028" class="pub-title">
               Subtleties in constraining gravity theories with mass-radius data
             </a>
-            <div style="margin-top:4px; font-size:13px; color:#333;">
+            <div class="pub-authors">
               Ekrem S. Demirboğa, <span class="highlight">Yakup Emre Şahin</span>, Fethi M. Ramazanoğlu
             </div>
-            <div style="margin-top:4px; font-size:13px; font-style:italic; color:#555;">
-              Physical Review D
+            <div class="pub-venue">
+              Physical Review D, 2023
             </div>
-            <hr style="margin:8px 16px 8px 16px; border:0; border-top:1px solid #ebe3f0;">
-            <p style="margin-top:8px; font-size:14px; color:#333;">
+            <hr>
+            <p class="pub-summary">
               Mass–radius measurements of neutron stars can constrain certain alternative gravity theories like DEF and scalar–Gauss–Bonnet models, though their effectiveness depends on the specific model and mechanism.
             </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2303.01910">[arXiv]</a>
+            </div>
           </div>
 
-          <div style="padding:16px; border:1px solid #f8f8f8; border-radius:8px; background:#ffffff; margin-bottom:12px;">
-            <a href="https://proceedings.jacow.org/ipac2023/doi/jacow-ipac2023-tupl104/" style="font-weight:500; font-size:16px;">
+          <div class="publication">
+            <a href="https://proceedings.jacow.org/ipac2023/doi/jacow-ipac2023-tupl104/" class="pub-title">
               DC and pulsed electron beam test facility at CERN
             </a>
-            <div style="margin-top:4px; font-size:13px; color:#333;">
-              Adriana Rossi, Hao Zhang, Antti Kolehmainen, Wilfried Devauchelle, Sergey Sadovich, Diego Perini, 
-              <span class="highlight">Yakup Emre Şahin</span>, Jean Cenede, Oliver Stringer, Maxime Toscan du Plantier, Fredrik Wenander, 
-              Ashley Churchman, Franck Guillot-Vignot, Thibaut Coiffet, Muhammed Sameed, Ondrej Sedlacek, 
-              Manfred Wendt
+            <div class="pub-authors">
+              A. Rossi, …, <span class="highlight">Y. E. Şahin</span>, …, M. Wendt
             </div>
-            <div style="margin-top:4px; font-size:13px; font-style:italic; color:#555;">
+            <div class="pub-venue">
               JACoW IPAC 2023
             </div>
-            <hr style="margin:8px 16px; border:0; border-top:1px solid #ebe3f0;">
-            <p style="margin-top:8px; font-size:14px; color:#333;">
+            <hr>
+            <p class="pub-summary">
               A CERN test stand was built for the Hi-Lumi and ARIES projects to evaluate electron lens and space charge compensation components, featuring versatile diagnostics and instrumentation, with first results confirming the HEL gun design.
             </p>
           </div>
 
-
-            
-          </tbody></table>
+          </div>
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -145,6 +142,15 @@
 
         </td>
       </tr>
-    </table>
+    </tbody></table>
+    <script>
+      // Each click on the profile photo turns it another 90 degrees.
+      var pp = document.querySelector('.pp');
+      var ppAngle = -90;
+      pp.addEventListener('click', function () {
+        ppAngle -= 90;
+        pp.style.rotate = ppAngle + 'deg';
+      });
+    </script>
   </body>
 </html>
