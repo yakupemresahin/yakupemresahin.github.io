@@ -18,6 +18,14 @@ body {
   margin: 0;
 }
 
+#orbits {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
 .pp {
   background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   rotate: -90deg;
