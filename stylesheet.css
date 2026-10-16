@@ -59,11 +59,35 @@ body {
 }
 
 .publication {
-  background: white;
+  background: rgba(255, 255, 255, 0.75);
   padding: 16px;
   border: 1px solid #f8f8f8;
   border-radius: 8px;
   margin-bottom: 12px;
+}
+
+.publication.has-media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Every figure has the same width; its height follows from its aspect ratio. */
+.pub-media {
+  flex: 0 0 180px;
+  max-width: 35%;
+}
+
+.pub-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .publication .pub-title {
@@ -125,6 +149,13 @@ h2 {
   margin: 0;
   font-family: Rubik, Verdana, Helvetica, sans-serif;
   font-size: 32px;
+}
+
+p.tip {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #888;
 }
 
 span.highlight {
