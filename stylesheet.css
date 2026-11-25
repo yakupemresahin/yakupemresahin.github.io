@@ -151,6 +151,23 @@ h2 {
   font-size: 32px;
 }
 
+.talks {
+  margin-top: 20px;
+}
+
+.talks ul {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.talks li {
+  margin-bottom: 6px;
+}
+
+.talks li a {
+  font-size: 13px;
+}
+
 p.tip {
   margin: 0 0 8px;
   text-align: center;
